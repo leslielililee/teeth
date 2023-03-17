@@ -10,4 +10,9 @@ public class TestController {
     public String getMessage() {
         return "I'm king of the world!";
     }
+
+    @GetMapping("/getName")
+    public String getName() {
+        return "my name is leslie";
+    }
 }
